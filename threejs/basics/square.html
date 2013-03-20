@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic square</title>
+	<style>
+		#container {
+			background: #000;
+			width: 400px;
+			height: 300px;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="container">
+
+
+	</div>
+<script type="text/javascript" src="../libs/three.js"></script>
+<script type="text/javascript">
+	var camera, scene, renderer;
+	var	windowScale;
+
+	function BasicTriangle(){
+		//thie function will create and return a triangle
+		//define the geometry
+		var triangle = new THREE.Geometry();
+		//deifne the vertices
+		triangle.vertices.push(new THREE.Vector3(1,1,0));
+		triangle.vertices.push(new THREE.Vector3(3,1,0));
+		triangle.vertices.push(new THREE.Vector3(3,3,0));
+		//use the 3 vertices pushed on the array, to create a face
+		triangle.faces.push(new THREE.Face3(0,1,2));		
+		return triangle;
+	}
+
+	function Draw(x1,y1,x2,y2){
+		//the function will draw a square on the screen
+		var square = new THREE.geometry();
+		//begin square creation code
+		//end square creation code		
+		return square;
+	}
+
+	function init(){
+		var canvas = {
+			width: 720,
+			height: 480,
+			ratio: 720/480
+		}
+
+		//create the scene
+		scene = new THREE.Scene();
+
+		//create the camera, making sure the y axis is pointing up
+		w = {
+			scale: 12,
+			width: canvas.ratio*12,
+			height: 12
+		}
+
+		//set the camera
+		camera = new THREE.OrthographicCamera(w.width/-2, w.width/2, w.height/2, w.height/-2, 0, 40); //set up the camera
+		//set the camera focus
+		var focus = new THREE.Vector3(5,5,0);
+		//position the camera
+		camera.position.x = focus.x;
+		camera.position.y = focus.y;
+		camera.position.z = 20;
+		camera.lookAt(focus);
+
+		//render the scene
+		renderer = new THREE.WebGLRenderer({antialias:true, preserveDrawingBuffer: true});
+		renderer.gammaInput = true;
+		renderer.gammaOutput = true;
+		renderer.setSize(canvas.width, canvas.height);
+		renderer.setClearColorHex(0xffffff, 1.0);
+		console.log(w);
+	}
+
+	function AddToDom(){
+		var container = document.getElementById('container');
+		var canvas = document.getElementByTagName('canvas');
+		if (canvas.length>0)
+			container.removeChild(canvas[0]);
+		container.appendChild(renderer.domElement);
+	}
+
+	function Render(){
+		//render the scene
+		renderer.render(scene, camera);
+	}
+
+	function ShowGrids(){
+		Coordinates.drawGrid({size:100,scale:1,orientation:"z"});
+		Coordinates.drawAxis({axisLength:11,axisOrientation:"x",axisRadius:0.04});
+		Coordinates.drawAxis({axisLength:11,axisOrientation:"y",axisRadius:0.04});
+	}
+
+	//Body of the script
+	init();
+	ShowGrids();
+	AddToDom();
+</script>
+</body>
+</html>
