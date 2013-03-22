@@ -1,0 +1,202 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ga",
+				"galleries_from_dir"
+			],
+			[
+				"dir",
+				"directory"
+			],
+			[
+				"public",
+				"public_folder"
+			],
+			[
+				"privae",
+				"private_dir"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/negative-films/css/sass/styles.scss",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/negative-films/works.html",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/negative-films/home.html",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/negative-films/js/main.js",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/negative-films/css/styles.css",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/negative-films/todo.txt",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/negative-films/index.html",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/negative-films/css/styles",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/app.rb",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/views/layout.haml",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/views/index.haml",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/views/gallery/gallery.haml",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/views/gallery/index.haml",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/views/gallery/new.haml",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/views/app.scss",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/README.md",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/.gitignore",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/gallery.rb",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/image.rb",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/views/user/new.haml",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/views/gallery/list.haml",
+		"/Users/apple/Documents/Repositories/AtlasDesign/sinatra-tests/songs/song.rb",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/user.rb",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/dmconfig.rb",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/images.rb",
+		"/Users/apple/Documents/Repositories/AtlasDesign/sinatra-tests/songs/templates/song_form.slim",
+		"/Users/apple/Documents/Repositories/AtlasDesign/atlas-dev-repo/fotographia/views/user/gallery.haml",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"inline-block",
+			"page-title"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true
+}
