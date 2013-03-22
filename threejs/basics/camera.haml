@@ -2,6 +2,24 @@
 	%head
 		%title Three.js camera demo
 	%body
-		%script(type="text/javascript" src="../libs/three.js")  	
+		#container
+		%script(type="text/javascript" src="../../libs/three.js")  	
 		:javascript
+			//set the scene size
+			var _dim = {w:400,h:300};
+			//set the camera attributes
+			var camera_attr = {angle:45,aspect:_dim.w/_dim.h,near:0.01,far:10000};
+			//get the dom element to bind as the container
+			var container = document.getElementById("container");
+			//create a webgl renderer and a scene
+			var renderer = new THREE.WebGLRenderer();
+			var camera = new THREE.PerspectiveCamera(camera_attr.angle, camera_attr.aspect, camera_attr.near, camera_attr.far);
+			var scene = new THREE.Scene();
+			//add the camera to the scene
+			scene.add(camera);
+			//pull the camera back from its starting position of 0,0,0
+			camera.position.z = 300;
+			//start the renderer
+			renderer.setSize(_dim.w, _dim.h);
+			container.appendChild(renderer.domElement);
 			
